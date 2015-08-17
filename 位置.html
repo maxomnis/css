@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title>无标题文档</title>
+<style>
+
+body {
+	left:30px;
+}
+
+ .test {
+ 	  background: #8ec63f;
+	  height: 80px;
+	  position: relative;
+	  width: 80px;
+ }
+ 
+ /* box-javascript 有部分跟 c语言部分重叠了，这就是为什么说尽管相对定位的元素可以使用偏移量属性，但是它在网页排版时按照的却是跟static position(默认的方式)相同的方式*/
+ .box-javascript{
+	/*top:20px; */
+ }
+ 
+ 
+</style>
+</head>
+
+<body>
+<div class="test">
+python
+</div>
+<div class="test box-javascript">
+javascript
+</div>
+<div class="test">
+c
+</div>
+<div class="test">
+c#
+</div>
+</body>
+</html>

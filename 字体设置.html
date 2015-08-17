@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    	/*
+        css 字体设置
+        如果读者没有安装Georgia字体，则使用serif字体，如果连serif字体都没有，则使用h1的默认字体
+    	*/
+        h1 {
+        	font-family: Georgia, serif;
+        	font-weight: bold;              /*字体加粗*/
+        	font-size: small; /*设置字体大小*/
+        	font-style: italic;  /*设置字体的风格,italic 表示斜体*/
+        	font-variant: small-caps; /*设置字体变形*/
+        	line-height: 100px ;  /*设置行高*/
+        }
+
+        /*
+			上面的效果的一种更简便的写法，将所有的属性都放在font里,不过要注意属性的顺序,顺序颠倒的话会失效
+        */
+
+        /* h1 {font: italic bold small-caps small 30px Georgia, serif} */
+
+    </style>
+    <title></title>
+</head>
+<body>
+	<h1>hello world! javascript </h1>
+	<h1>hello world! php </h1>
+	<h1>hello world! python </h1>
+</body>
+</html>
